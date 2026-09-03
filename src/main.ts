@@ -1,12 +1,17 @@
 // --- Starter JavaScript Code ---
 
 // A simple Book class (using constructor function in JS)
-function Book(title, author, year) {
-  this.title = title;
-  this.author = author;
-  this.year = year;
-}
+class Book {
+  title: string;
+  author: string;
+  year: number;
 
+  constructor(title: string, author: string, year: number) {
+    this.title = title;
+    this.author = author;
+    this.year = year;
+  }
+}
 // Function to display book information
 function displayBook(book: Book): void {
   const bookList = document.getElementById("book-list");
