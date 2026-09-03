@@ -1,5 +1,9 @@
 // --- Starter JavaScript Code ---
-
+interface Review {
+  bookId: number;
+  rating: number;
+  comment: string;
+}
 // A simple Book class (using constructor function in JS)
 class Book {
   title: string;
@@ -11,6 +15,13 @@ class Book {
     this.author = author;
     this.year = year;
   }
+}
+
+let reviews: Review[] = [];
+
+function addReview(bookId: number, rating: number, comment: string): void {
+  const newReview: Review = { bookId, rating, comment };
+  reviews.push(newReview);
 }
 // Function to display book information
 function displayBook(book: Book): void {
