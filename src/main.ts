@@ -1,10 +1,10 @@
-// --- Starter JavaScript Code ---
+// Review interface for typed review objects
 interface Review {
   bookId: number;
   rating: number;
   comment: string;
 }
-// A simple Book class (using constructor function in JS)
+// Book class with typed properties
 class Book {
   title: string;
   author: string;
