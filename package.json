@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Ibrahim-Iradukunda/typescript-webpack-activity#readme",
   "devDependencies": {
     "ts-loader": "^9.6.2",
-    "typescript": "^7.0.2",
+    "typescript": "^5.9.3",
     "webpack": "^5.110.3",
     "webpack-cli": "^7.2.3"
   }
