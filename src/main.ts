@@ -42,3 +42,6 @@ const book2 = new Book("The Lord of the Rings", "J.R.R. Tolkien", 1954);
 // Display the books on the webpage
 displayBook(book1);
 displayBook(book2);
+
+addReview(1, 5, "A timeless classic!");
+addReview(2, 4, "Long but rewarding.");
